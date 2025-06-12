@@ -1,6 +1,6 @@
 import MenuItem from "./MenuItem";
 
-export default function Menu({ items }) {
+function Menu({ items }) {
   return (
     <ul className="section-center">
       {items.map((menuItem) => (
@@ -9,3 +9,5 @@ export default function Menu({ items }) {
     </ul>
   );
 }
+
+export default Menu;
